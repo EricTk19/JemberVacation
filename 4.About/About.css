@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+    background: url(../Gambar/login/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Geometr706 BlkCn BT;
+    height: 100vh;
+}
+/*Navigation bar*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+header a img{
+    width: 200px;
+    margin-left: 5%;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+}
+.container :after {
+    content:' ';
+    display: none;
+    clear: both;
+}
+.logo{
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    margin-top: -1px;
+    left: 8%;
+}
+header ul{
+    font-family: Swis721 Lt BT;
+    float: right;
+    margin-top: -50px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline;
+    color: white;
+    font-size: 24px;
+}
+header ul li a:hover {
+    color: #F3A93A;
+}
+.active {
+    color: #F3A93A;
+}
+.container {
+    background-color: white;
+}
+/*---About Us---*/
+
+.Box{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "about about"
+        "kiri-box kanan-box";
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+}
+
+#about{
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    grid-area: about;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.kiri-box{
+    grid-area: kiri-box;
+}
+
+.kiri-box p{
+    font-size: 26px;
+}
+
+.kanan-box{
+    text-align: center;
+    grid-area: kanan-box;
+}
+
+#img-one{
+    border-radius: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+#img-two{
+    margin-top: -50px;
+    margin-right: 250px;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+/*ContactUs*/
+footer{
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: inset;
+    border-top: inset;
+    background-color: white;
+}
+footer h1{
+    text-align: center;
+}
+#Logo-Pemda #Logo-Sosmed #Logo-PI{
+    display: inline-block;
+}
+#Logo-Pemda img{
+    height: 120px;
+    width: 90px;
+}
+#Logo-Sosmed{
+    text-align: center;
+    margin-top: -90px;
+}
+#Logo-Sosmed img{
+    height: 70px;
+    width: 70px;
+}
+#Logo-PI{
+    text-align: right;
+    margin-top: -100px;
+}
+#Logo-PI img{
+    height: 120px;
+    width: 200px;
+}
