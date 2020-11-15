@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg {
+    height: 120vh;
+    background-image: url("../Gambar/makananbaru/a.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Navigation bar*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+header a img{
+    width: 200px;
+    margin-left: 5%;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+}
+.container :after {
+    content:' ';
+    display: none;
+    clear: both;
+}
+.logo{
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    margin-top: -1px;
+    left: 8%;
+}
+header ul{
+    font-family: Swis721 Lt BT;
+    float: right;
+    margin-top: -50px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline;
+    color: white;
+    font-size: 24px;
+}
+header ul li a:hover {
+    color: #F3A93A;
+}
+.active {
+    color: #F3A93A;
+}
+
+
+
+.Tcontainer {
+    position: absolute;
+    height: 1650px;
+    width: 1050px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.explore {
+    height: 10vh;
+    width: 95%;
+    margin-top: 120px;
+    background-color: black;
+    margin-left: 23px;
+}
+.explore h2 {
+    color: whitesmoke;
+    font-family: Geometr706 BlkCn BT;
+    padding-top: 13px;
+    margin-left: 25px;
+}
+.papuma {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.lks0 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.lks0 h6 {
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 14px;
+}
+.lks0 h3 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 32px;
+}
+.star0 {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 230px;
+}
+
+
+.text h3 {
+    position: absolute;
+    color:#F3A93A;
+    font-family: Geometr706 BlkCn BT;
+    margin-top: -30px;
+    font-size: 24px;
+}
+.text h4 {
+    position: absolute;
+    color: grey;
+    font-family: Geometr706 BlkCn BT;
+    margin-top: -32px;
+    margin-left: 135px;
+    font-size: 24px;
+}
+.text {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    margin-top: -300px;
+    margin-left: 640px;
+    background-color: grey;
+}
+.tlove {
+    margin-top: -270px;
+    margin-left: 640px;
+}
+.lks {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 190px;
+}
+.lks h6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: Swis721 Lt BT;
+}
+.lks h3 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 24px;
+}
+.star {
+    position: absolute;
+    margin-top: 40px;
+}
+.teh {
+    margin-top: 20px;
+    margin-left: 637px;
+}
+.lks1 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 190px;
+}
+.lks1 h6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: Swis721 Lt BT;
+}
+.lks1 h3 {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 16px;
+}
+.star1 {
+    position: absolute;
+    margin-top: 40px;
+}
+.puncak {
+    margin-top: 20px;
+    margin-left: 635px;
+}
+.lks2 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 190px;
+}
+.lks2 h6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: Swis721 Lt BT;
+}
+.lks2 h3 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 24px;
+}
+.star2 {
+    position: absolute;
+    margin-top: 40px;
+}
+.bandealit {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.lks3 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+.lks3 h6 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 13px;
+}
+.lks3 h3 {
+    position: absolute;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 20px;
+}
+
+.star3 img {
+    position: absolute;
+    margin-left: 160px;
+}
+.shape {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+.wana {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.lks4 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+.lks4 h6 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 13px;
+}
+.lks4 h3 {
+    position: absolute;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 17px;
+}
+
+.star4 img {
+    position: absolute;
+    margin-left: 160px;
+}
+.shape1 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+.sj88 {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.lks5 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+.lks5 h6 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 13px;
+}
+.lks5 h3 {
+    position: absolute;
+    margin-left: 1px;
+    font-family: Swis721 Lt BT;
+    font-size: 20px;
+}
+
+.star5 img {
+    position: absolute;
+    margin-left: 130px;
+}
+.shape2 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+.watu {
+    position: absolute;
+    margin-top: -840px;
+    margin-left: 600px;
+}
+
+.lks6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+.lks6 h6 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 13px;
+}
+.lks6 h3 {
+    position: absolute;
+    margin-left: 5px;
+    font-family: Swis721 Lt BT;
+    font-size: 20px;
+}
+
+.star6 img {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 100px;
+}
+.shape3 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+.airter {
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 600px;
+}
+
+.lks7 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+.lks7 h6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 11px;
+}
+.lks7 h3 {
+    position: absolute;
+    margin-left: 5px;
+    font-family: Swis721 Lt BT;
+    font-size: 20px;
+}
+
+.star7 img {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 160px;
+}
+.shape4 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+.puger {
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 600px;
+}
+
+.lks8 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+.lks8 h6 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family: Swis721 Lt BT;
+    font-size: 11px;
+}
+.lks8 h3 {
+    position: absolute;
+    margin-left: 5px;
+    font-family: Swis721 Lt BT;
+    font-size: 20px;
+}
+
+.star8 img {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 160px;
+}
+
+.shape5 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 25px; 
+}
+.slide h6 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 480px;
+    padding-left: 4px;
+    color: black;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    font-size: 12px;
+}
+.slide h5 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 510px;
+    padding-left: 4px;
+    color: black;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    font-size: 12px;
+}
+.slide h4 {position: absolute;
+    margin-top: 70px;
+    margin-left: 540px;
+    padding-left: 4px;
+    color: black;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    font-size: 12px;
+}
+
+.footer {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    margin-top: 2000px;
+    background-color: grey;
+}
+.contact {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 550px;
+    font-family: Tw Cen MT;
+    color: grey;
+}
+.jember {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.ig {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 350px;
+}
+.ig h6 {
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 70px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+}
+.wa {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 650px;
+}
+.wa h6 {
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 70px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+}
+.wonder {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 950px;
+}
+.web h6 {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 510px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+}
+
