@@ -63,6 +63,36 @@ header ul li a:hover {
     background-color: white;
 }
 
+
+/*----SceneAwal----*/
+.opening{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50px;
+    width: 500px;
+    height: 230px;
+}
+.close{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 450px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.value p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.value img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 200px;
+}
+
 /*----SomeExplain-b---*/
 .Explain{
     padding-top: 45%;
