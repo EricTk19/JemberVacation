@@ -13,41 +13,62 @@
             <button id="punyaakun" type="submit">Have An Account</button>
         </form>
     </div>
-    <div class="kanan-bos">
-        <h1>REGISTER FORM</h1>
-        <div class="top">
-            <div class="sa">
-                <a>First Name<br>
-                <input type="text"></a>
+    <form action="" name="Datadiri" method="POST">
+        <div class="kanan-bos">
+            <h1>REGISTER FORM</h1>
+            <div class="top">
+                <div class="sa">
+                    <a>First Name<br>
+                    <input type="text" name="Awal"></a>
+                </div>
+                <div class="tu">
+                    <a>Last Name<br>
+                    <input type="text" name="Akhir"></a>
+                </div> 
             </div>
-            <div class="tu">
-                <a>Last Name<br>
-                <input type="text"></a>
-            </div> 
-        </div>
 
-        <div class="middle">
-            <div class="dua">
-                <a>Your Email<br>
-                <input type="text"></a>
+            <div class="middle">
+                <div class="dua">
+                    <a>Your Email<br>
+                    <input type="text" name="Email"></a>
+                </div>
             </div>
-        </div>
 
-        <div class="bottom">
-            <div class="ti">
-                <a>Password<br>
-                <input type="password"></a>
+            <div class="bottom">
+                <div class="ti">
+                    <a>Password<br>
+                    <input type="password"></a>
 
+                </div>
+                <div class="ga">
+                    <a>Confirm Password<br>
+                    <input type="password"></a>
+                </div>
             </div>
-            <div class="ga">
-                <a>Confirm Password<br>
-                <input type="password"></a>
-            </div>
+        
+        <a id="button" class="button" onclick="Accept()" value="Save">Register</a>
         </div>
-        <form action="../2.Login/Login.html">
-            <button id="kanan" type="submit">Register</button>
-        </form>
+    </form>
+</div>
+<!--Message-->
+<div class="Bg-Message">
+    <div class="Message">
+        <div class="close">+</div>
+        <div class="line"><img src="../Gambar/Done.png" alt="" width="150px"></div>
+        <p>You've registered in Jember Vacation<br>
+        Confirm your registration Email</p>
     </div>
 </div>
+<div class="Bottom-gr">
+    <table border="1" id="table-Input">
+        <tr>
+            <td>First Name</td>
+            <td>Last name</td>
+            <td>Email</td>
+        </tr>
+    </table>
+</div>
+
 </body>
+<script src="hmm.js"></script>
 </html>
